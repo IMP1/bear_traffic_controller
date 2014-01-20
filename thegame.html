@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Bear Traffic Control</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/"><img src="/img/logo.png" style="width: 20px; float: left;"> &ensp; Bear Traffic Control</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/downloads.html">Get the game</a></li>
+                <li><a href="/usermanual.html">User Manual</a></li>
+                <li class="active"><a href="/thegame.html">The Game</a></li>
+                <li><a href="/gettingstarted.html">Getting Started</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+	    <!-- Large columns with a screenshot above and description below
+    ================================================== -->
+    <!-- Each row has an individual centre property for later use. -->
+
+    <div class="container marketing" style="padding-top: 90px;">
+	
+	<div class="row">
+		<div class="col-lg-12" style="text-align: center;">
+			<div class="btn-group">
+			  <button type="button" class="btn btn-default disabled" onclick="forUsers();" id="forusersbutton">For users</button>
+			  <button type="button" class="btn btn-default" onclick="forDevelopers();" id="fordevelopersbutton">For developers</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="forusers">
+      <div class="row" style="padding-top: 30px;">
+        <div class="col-lg-12" style="text-align: center;">
+          <img style="width:500px;" src="/img/PlayDemo.png" alt="Main menu screenshot">
+          <h2>The Menu Screen</h2>
+          <p>It all starts here. To begin playing the game, click the "Play Demo" button.</p>
+        </div><!-- /.col-lg-12 -->
+      </div><!-- /.row -->
+      <hr class="featurette-divider">
+       <div class="row">
+        <div class="col-lg-12" style="text-align: center;">
+          <img style="width:500px;" src="/img/GamePlay.png" alt="Radar screen shot">
+          <h2>The Game GUI</h2>
+          <p>Once you have launched the demo you will be taken to the game GUI. It's from here that you can take control of the virtual planes
+          	travelling through our airspace. As an ATCO (Air Traffic Control Officer), it is your responsbility to make sure that each plane
+          	gets safely from its entry point to its assigned exit point.</p>
+        </div><!-- /.col-lg-12 -->
+      </div><!-- /.row -->
+
+      <!-- Three columns of text relating to GUI features, there are multiple rows of this -->
+      <div class="row" style="padding-top: 20px;">
+        <div class="col-lg-4">
+          <img src="/img/ChangingCourse.png" alt="Aircrafts waypoint being moved" style="height: 120px;">
+          <h2>Changing Course</h2>
+          <p>If you wish to change an aircrafts flight plan, then simply click on it, select the waypoint you no longer want it to visit,
+          	and drag to the waypoing you do want to visit.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/img/ChangingAltitude.png" alt="Altitude change controller" style="height: 120px;">
+          <h2>Changing Altitude</h2>
+          <p>To change an aircrafts altitude, click on it once to make it the active aircraft, and then click it again to engage altitude control.
+          	At this point, moving the scroll wheel on your mouse will move the plane up or down.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/img/TurningLeftOrRight.png" alt="Protractor interface" style="height: 120px;">
+          <h2>Turning left or right</h2>
+          <p>Changing the heading of an aircraft is achieved in manual control mode. To enter this mode, select a plane by clicking on it, then
+          	click the "take control" button (or press the space bar). Once you have manual control...</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+      <div class="row" style="padding-top: 20px;">
+        <div class="col-lg-4">
+          <img src="/img/PlaneInfo.png" alt="Plane Information Panel" style="height: 120px;">
+          <h2>Plane Info Panel</h2>
+          <p>The panel at the bottom left of the screen is used to display various flight specific information that you may require. 
+          	To select the active flight and display it's information, simply click on the plane.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/img/RadioConsole.png" alt="Radio Console with example text" style="height: 120px;">
+          <h2>Radio Console</h2>
+          <p>Every command the user makes is issued to the plane as a radio command. These are displayed in this console.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/img/GamePlayScore.png" alt="Generic placeholder image" style="height: 120px;">
+          <h2>Score</h2>
+          <p>During gameplay, your score is displayed in the top left corner of the game screen. This score is calculated based on
+          	how long you have been playing, and how many planes you have successfully routed through your airsplace.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+      <hr class="featurette-divider">
+       <div class="row">
+        <div class="col-lg-12" style="text-align: center;">
+          <img style="width:500px;" src="/img/GameOver.png" alt="Game over screenshot">
+          <h2>Game Over</h2>
+          <p>If any two planes in your aispace crash, then the game will end. It is your job to make sure that this doesn't happen. To exit this screen
+          	and return to the main menu, simply press any key.</p>
+        </div><!-- /.col-lg-12 -->
+      </div><!-- /.row -->
+
+      <!-- Three columns, only one is used -->
+      <div class="row" style="padding-top: 20px;">
+        <div class="col-lg-4">
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/img/Score.png" alt="Main menu score" style="height: 120px;">
+          <h2>Main Menu Score</h2>
+          <p>Once you have returned to the main menu your score will be displayed on the right side of the game screen. If you choose to
+          	play again, you will continue playing from this score.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+        </div>
+      </div><!-- /.row -->
+      </div> <!-- forusers div -->
+
+	 <div id="fordevelopers" style="display: none;">
+      <div class="row" style="padding-top: 30px;">
+        <div class="col-lg-12" style="text-align: center;">
+          <img style="width:500px;" src="/img/PlayDemo.png" alt="Main menu screenshot">
+          <h2>The Menu Screen</h2>
+          <p>The menu screen presents the user with an easy to understand interface. It's from here that they can see their current statistics,
+          	should they have played the game already in this session, or choose to play the demo.</p>
+          	<p>Insert coding description.</p>
+        </div><!-- /.col-lg-12 -->
+      </div><!-- /.row -->
+      <hr class="featurette-divider">
+       <div class="row">
+        <div class="col-lg-12" style="text-align: center;">
+          <img style="width:500px;" src="/img/GamePlay.png" alt="Radar screen shot">
+          <h2>The Game GUI</h2>
+          <p>The game GUI is entered immediately after the users clicks on Play Demo and is where all game play happens.</p>
+        </div><!-- /.col-lg-12 -->
+      </div><!-- /.row -->
+
+      <!-- Three columns of text relating to GUI features, there are multiple rows of this -->
+      <div class="row" style="padding-top: 20px;">
+        <div class="col-lg-4">
+          <img src="/img/ChangingCourse.png" alt="Aircrafts waypoint being moved" style="height: 120px;">
+          <h2>Changing Course</h2>
+          <p>To satisfy the "change course" deliverable requirement, the user is able to alter the flight plan of each aircraft has. This involves
+          	substituting already selected waypoints for other waypoints in the airspace and is achieved by selecting a flight by clicking on it, and dragging
+          	from a waypoint on the flight plan to a waypoint the flight should visit instead.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/img/ChangingAltitude.png" alt="Altitude change controller" style="height: 120px;">
+          <h2>Changing Altitude</h2>
+          <p>Although the game utilised 2D graphics, the "change altitude" deliverable requirement is met. The game displays each aircraft's current altitude
+          	in a label next to it, and in the Plane Info panel at the bottom left of the screen. An aircrafts altitude it changed by clicking on the plane to select it,
+          	then clicking again to enable altitude control mode and using the mouse scroll wheel to instruct the plane to move up and down.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/img/TurningLeftOrRight.png" alt="Protractor interface" style="height: 120px;">
+          <h2>Turning left or right</h2>
+          <p>As well as the ability to change an aircraft's course, the user also has the ability to take manual control of each aircraft, therefore
+          	satisfying the "turn left or right" deliverable requirement. This is achieved by clicking on the plane and then toggling manual mode by clicking
+          	the "take control" option or screen or pressing the space bar and then using the ??? to control the plane.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+      <div class="row" style="padding-top: 20px;">
+        <div class="col-lg-4">
+          <img src="/img/PlaneInfo.png" alt="Plane Information Panel" style="height: 120px;">
+          <h2>Plane Info Panel</h2>
+          <p>The panel at the bottom left of the game screen currently displays flight specific information that the user may find useful.
+          	However, this panel is designed to be customisable meaning that future developers can alter the contents of this as they expand the game.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/img/RadioConsole.png" alt="Radio Console with example text" style="height: 120px;">
+          <h2>Radio Console</h2>
+          <p>The radio console helps add to the realism of the game and aims to improve the user's experience.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/img/GamePlayScore.png" alt="Generic placeholder image" style="height: 120px;">
+          <h2>Score</h2>
+          <p>During gameplay, your score is displayed in the top left corner of the game screen. This score is calculated based on
+          	how long you have been playing, and how many planes you have successfully routed through your airsplace.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+      <hr class="featurette-divider">
+       <div class="row">
+        <div class="col-lg-12" style="text-align: center;">
+          <img style="width:500px;" src="/img/GameOver.png" alt="Game over screenshot">
+          <h2>Game Over</h2>
+          <p>If any two planes in your aispace crash, then the game will end. It is your job to make sure that this doesn't happen. To exit this screen
+          	and return to the main menu, simply press any key.</p>
+        </div><!-- /.col-lg-12 -->
+      </div><!-- /.row -->
+
+      <!-- Three columns, only one is used -->
+      <div class="row" style="padding-top: 20px;">
+        <div class="col-lg-4">
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/img/Score.png" alt="Main menu score" style="height: 120px;">
+          <h2>Main Menu Score</h2>
+          <p>Once you have returned to the main menu your score will be displayed on the right side of the game screen. If you choose to
+          	play again, you will continue playing from this score.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+        </div>
+      </div><!-- /.row -->
+	 </div> <!-- fordevelopers div -->
+	 
+	 <hr>
+	 
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>SEPR Team FLR</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+	<script type="text/javascript">
+	
+	function forDevelopers()
+	{
+		var elem = document.getElementById('forusers');
+		$(elem).hide();
+		var elem = document.getElementById('forusersbutton');
+		elem.className = "btn btn-default";
+		var elem = document.getElementById('fordevelopersbutton');
+		elem.className = "btn btn-default disabled";
+		var elem = document.getElementById('fordevelopers');
+		$(elem).show();
+	}
+	function forUsers()
+	{
+		var elem = document.getElementById('fordevelopers');
+		$(elem).hide();
+		var elem = document.getElementById('fordevelopersbutton');
+		elem.className = "btn btn-default";
+		var elem = document.getElementById('forusersbutton');
+		elem.className = "btn btn-default disabled";
+		var elem = document.getElementById('forusers');
+		$(elem).show();
+	}
+	</script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/docs-assets/js/holder.js"></script>
+  </body>
+</html>
