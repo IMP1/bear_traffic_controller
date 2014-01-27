@@ -3,11 +3,11 @@ bear_traffic_controller
 
 ![Bear Traffic Controller](http://i.imgur.com/KHlkiaj.jpg)
 
-Team FLR's Contribution to the University of York 2nd Year Software Engineering Project.
+Team MQV's Contribution to the University of York 2nd Year Software Engineering Project.
 
 Wiki
 ----
-FRL's SEPR Wiki page can be found [here](http://www-module.cs.york.ac.uk/sepr/wiki/index.php?title=FLR). Permissions are required.
+MQV's SEPR Wiki page can be found [here](http://www-module.cs.york.ac.uk/sepr/wiki/index.php?title=MQV). Authentication is required.
 
 Building
 --------
