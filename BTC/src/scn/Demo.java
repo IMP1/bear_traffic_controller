@@ -91,9 +91,9 @@ public class Demo extends Scene {
 	private double flightGenerationTimeElapsed = 6;
 	/**
 	 * Max aircraft in the airspace at once
-	 * Change to 10 for Assessment 3.
+	 * Changed to 10 for Assessment 3.
 	 */
-	private int maxAircraft = 2;
+	private int maxAircraft = 10;
 	/**
 	 * The current control altitude of the ACTO
 	 * initially 30,000
